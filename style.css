@@ -1,0 +1,22 @@
+@import "css/reset.css";
+@import "css/nav.css";
+@import "css/video.css";
+@import "css/contents.css";
+
+@font-face {
+  font-family: "KBO-Dia-Gothic_bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff")
+    format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-color: black;
+  font-family: "KBO-Dia-Gothic_bold";
+}
