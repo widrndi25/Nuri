@@ -1,23 +1,43 @@
+@import "../animation.css";
+
 .nav {
   position: relative;
-  height: 100px;
+  height: 12vh;
+  width: 100%;
+  min-width: 1000px;
+  padding: 0 200px;
   display: flex;
   align-items: center;
-  color: white;
   justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.3);
+  color: white;
   z-index: 2;
-  padding: 0 200px;
+  opacity: 0;
+  box-sizing: border-box;
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 0.3s;
+}
+
+.nav-title,
+.nav-menu {
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out;
 }
 
 .nav--title {
-  font-size: 50px;
-}
-
-.nav--title:hover {
-  color: aqua;
+  font-size: 4.5rem;
 }
 
 .nav--menu {
-  font-size: 26px;
+  font-size: 2rem;
+}
+
+.nav--title:hover,
+.nav--menu:hover {
+  animation: moveUp 0.3s ease-in-out forwards;
+}
+
+.nav--title:not(:hover),
+.nav--menu:not(:hover) {
+  animation: moveDown 0.3s ease-in-out forwards;
 }

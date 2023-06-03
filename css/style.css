@@ -1,7 +1,7 @@
 @import "reset.css";
-@import "components/contents.css";
-@import "components/video.css";
 @import "components/nav.css";
+@import "components/video.css";
+@import "components/contents.css";
 
 @font-face {
   font-family: "KBO-Dia-Gothic_bold";
@@ -9,6 +9,10 @@
     format("woff");
   font-weight: 500;
   font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 a {

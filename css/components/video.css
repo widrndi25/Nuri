@@ -1,32 +1,45 @@
+@import "../animation.css";
+
 .video {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   position: relative;
   z-index: 1;
-  top: -100px;
+  top: -12vh;
   min-width: 1000px;
+  margin-bottom: 0;
 }
 
 .video > video {
-  width: 100vw;
   height: 100vh;
   object-fit: cover;
+  overflow: hidden;
+}
+
+.video__detail {
+  animation: fadeIn 1.3s ease-in-out forwards;
+  animation-delay: 0.6s;
+  opacity: 0;
 }
 
 .video__detail {
   margin: 100px;
   padding: 1rem 2rem;
   position: absolute;
-  top: 700px;
-  left: 100px;
+  top: 600px;
+  left: 50px;
   background-color: rgba(0, 0, 0, 0.3);
   color: white;
 }
 
 .video__detail--title {
-  font-size: 6rem;
+  font-size: 5rem;
+  margin-bottom: 10px;
+}
+
+.video__detail--description {
+  font-size: 3rem;
   margin-bottom: 10px;
 }
