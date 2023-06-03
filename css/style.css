@@ -1,7 +1,7 @@
-@import "css/reset.css";
-@import "css/nav.css";
-@import "css/video.css";
-@import "css/contents.css";
+@import "reset.css";
+@import "components/contents.css";
+@import "components/video.css";
+@import "components/nav.css";
 
 @font-face {
   font-family: "KBO-Dia-Gothic_bold";
@@ -19,4 +19,5 @@ a {
 body {
   background-color: black;
   font-family: "KBO-Dia-Gothic_bold";
+  min-width: 1000px;
 }

@@ -7,11 +7,15 @@
   justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.3);
   z-index: 2;
-  padding: 0 100px;
+  padding: 0 200px;
 }
 
 .nav--title {
   font-size: 50px;
+}
+
+.nav--title:hover {
+  color: aqua;
 }
 
 .nav--menu {
