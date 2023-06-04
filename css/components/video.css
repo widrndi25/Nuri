@@ -8,12 +8,13 @@
   position: relative;
   z-index: 1;
   top: -12vh;
-  min-width: 1000px;
+  min-width: 1100px;
   margin-bottom: 0;
 }
 
 .video > video {
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
   overflow: hidden;
 }
@@ -28,14 +29,14 @@
   margin: 100px;
   padding: 1rem 2rem;
   position: absolute;
-  top: 600px;
-  left: 50px;
+  top: 60%;
+  left: 5%;
   background-color: rgba(0, 0, 0, 0.3);
   color: white;
 }
 
 .video__detail--title {
-  font-size: 5rem;
+  font-size: 4rem;
   margin-bottom: 10px;
 }
 
