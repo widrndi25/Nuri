@@ -2,12 +2,21 @@
 @import "components/nav.css";
 @import "components/video.css";
 @import "components/contents.css";
+@import "components/footer.css";
 
 @font-face {
   font-family: "KBO-Dia-Gothic_bold";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff")
     format("woff");
   font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JSArirang-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSArirang-RegularA1.woff")
+    format("woff");
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -24,4 +33,7 @@ body {
   background-color: black;
   font-family: "KBO-Dia-Gothic_bold";
   min-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }

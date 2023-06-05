@@ -2,21 +2,21 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>누리호</title>
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="shortcut icon" href="src/img/favicon.webp" type="image/x-icon" />
   </head>
   <body>
     <div class="nav">
       <div class="nav--title"><a href="index.html">누리호</a></div>
-      <div class="nav--menu"><a href="#history">개발과정</a></div>
+      <div class="nav--menu"><a href="#course">발사절차</a></div>
       <div class="nav--menu"><a href="#launch">발사일정</a></div>
       <div class="nav--menu"><a href="#future">누리호, 그 다음</a></div>
     </div>
 
     <div class="video">
-      <video src="src/video/누리호_3차.mp4" autoplay muted loop></video>
+      <video src="/src/video/누리호_3차.mp4" autoplay muted loop></video>
       <div class="video__detail">
         <div class="video__detail--title">누리호 3차 발사</div>
         <div class="video__detail--explanation">2023년 5월 25일 18시 24분 발사 성공</div>
@@ -24,26 +24,104 @@
     </div>
 
     <div class="contents__container">
-      <div id="history">
-        <div class="title history--title">지금의 누리호가 있기까지</div>
-        <div class="title history--title">달려온 시간 40년.</div>
-        <div class="text history--text">달려온 시간 40년.</div>
+      <div class="logo">
+        <img src="src/img/slogan.svg" alt="" />
+      </div>
+      <div id="intro">
+        <div class="intro-image">
+          <img src="src/img/Nuri.png" />
+        </div>
+        <div class="title--container">
+          <div class="title">지금의 누리호까지</div>
+          <div class="title" style="padding: 10px">달려온 시간 40년</div>
+          <div class="title">대한민국은 해냈습니다.</div>
+        </div>
+      </div>
+
+      <div id="course">
+        <div class="title course--title">발사절차</div>
+        <div class="course--video">
+          <iframe
+            src="https://www.youtube.com/embed/fJtgncwSWUE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
 
       <div id="launch">
         <div class="title launch--title">발사일정</div>
-        <div class="text launch--text"></div>
+        <div class="launch__contents">
+          <div class="launch__content">
+            <div class="launch--image"><img src="src/img/weseong.jpeg" alt="" /></div>
+            <a href="https://www.kari.re.kr/kor/sub03_03_03.do" target="_blank">
+              <div class="launch__explanation">
+                <div class="text launch__explanation--title">4차 발사</div>
+                <div class="text launch__explanation--schedule">2025년 5월</div>
+                <div class="text launch__explanation--text">차세대중형위성 3호와</div>
+                <div class="text launch__explanation--text">함께 우주로!</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="launch__content">
+            <div class="launch--image"><img src="src/img/choso.jpeg" alt="" /></div>
+            <a href="https://satrec.kaist.ac.kr/03_18.php" target="_blank">
+              <div class="launch__explanation">
+                <div class="text launch__explanation--title">5차 발사</div>
+                <div class="text launch__explanation--schedule">2026년 6월</div>
+                <div class="text launch__explanation--text">초소형위성 3~6호,</div>
+                <div class="text launch__explanation--text">소자·부품 검증위성 2호와</div>
+                <div class="text launch__explanation--text">함께 우주로!</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="launch__content">
+            <div class="launch--image"><img src="src/img/our.jpeg" alt="" /></div>
+            <div class="launch__explanation">
+              <div class="text launch__explanation--title">6차 발사</div>
+              <div class="text launch__explanation--schedule">2027년 9월</div>
+              <div class="text launch__explanation--text">차세대소형위성 3호</div>
+              <div class="text launch__explanation--text">초소형위성 7~11호</div>
+              <div class="text launch__explanation--text">소자·부품 검증위성 3호와</div>
+              <div class="text launch__explanation--text">함께 우주로!</div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div id="future">
-        <div class="title future--title">누리호, 그 다음</div>
-        <div class="text future--text"></div>
+        <div class="future__title-container">
+          <div class="title future--title">누리호, 그 다음</div>
+          <div class="title future--title">KSLV-III</div>
+        </div>
+        <div class="future--img">
+          <img src="src/img/kslv3.webp" />
+        </div>
+        <div class="future__explanation">
+          <div class="text future--text">한국형 중궤도 및 정지궤도 발사체</div>
+          <div class="text future--text">2030년 12월 시험 발사 예정</div>
+        </div>
       </div>
+
+      <div class="title outro--title">누리호의 미래를 응원합니다!</div>
     </div>
 
-    <div class="reset-button">위로</div>
-
-    <div class="footer"></div>
+    <div class="footer">
+      <a href="https://www.kari.re.kr/kor.do" target="_blank"
+        ><div class="footer--logo"><img src="src/img/kari.png" /></div
+      ></a>
+      <a href="https://www.kari.re.kr/nuri"><div class="title footer--title">누리</div></a>
+      <a href="https://www.youtube.com/@KARItelevision"
+        ><div class="title footer--title">KARI TV</div></a
+      >
+      <a href="https://www.msit.go.kr/index.do" target="_blan">
+        <div class="footer--logo"><img src="src/img/science.png" /></div>
+      </a>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>

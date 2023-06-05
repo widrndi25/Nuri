@@ -1,0 +1,11 @@
+.footer {
+  background-color: #1a1a1a;
+  height: 8vh;
+  padding: 20px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer--title {
+  font-size: 2.3rem;
+}
