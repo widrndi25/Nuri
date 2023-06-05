@@ -126,6 +126,7 @@
 
 .launch__content {
   position: relative;
+  margin-bottom: 15vh;
 }
 
 .launch__content a:hover {
