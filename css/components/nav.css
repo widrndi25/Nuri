@@ -4,8 +4,8 @@
   position: relative;
   height: 15vh;
   width: 100%;
-  min-width: 1000px;
-  padding: 0 200px;
+  min-width: 800px;
+  padding: 0 10rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
